@@ -53,29 +53,31 @@ const ExperienceCard = ({
 
 const ExperienceSection = () => {
   const experiences = [
+    
+    
     {
-      icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      icon: Cpu,
+      title: "Webmaster",
+      company: "IEEE Student Branch",
+      period: "2022 - Present",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Managed and maintained the official website, ensuring optimal performance and user experience. Collaborated with the team to implement new features using React and Node.js.",
     },
     {
-      icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
+      icon: Activity,
+      title: "Web Developer",
+      company: "Media Matrix",
       period: "2021 - 2023",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Developed and maintained client websites, focusing on responsive design and cross-browser compatibility. Utilized modern frameworks like Next.js and Tailwind CSS.",
     },
     {
-      icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      icon: Binary,
+      title: "Freelance Developer",
+      company: "Self-Employed",
+      period: "2020 - Present",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Delivered tailored web solutions for diverse clients, from small businesses to startups. Specialized in full-stack development using cutting-edge technologies.",
     },
   ];
 

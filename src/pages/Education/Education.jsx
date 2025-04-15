@@ -14,25 +14,26 @@ const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const educationData = [
-    {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
-      description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
-    },
+    
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      school: "Senior Secondary School Sector 10",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2019-2023",
+      achievements: ["Percentage: 90%", "Subject: PCM"],
+      skills: ["Physics", "Chemistry", "Mathematics", "Engineering Graphics", "Technical Drawing"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Focused on core scientific principles and engineering fundamentals, laying strong groundwork for technical education through rigorous curriculum in Physics, Chemistry, and Mathematics with practical applications in engineering graphics.",
+    },
+    {
+      degree: "B.Tech in Computer Science & Engineering",
+      school: "IIIT Naya Raipur",
+      mascot: "💻",
+      year: "2023-2027",
+      achievements: ["Current CGPA: 8.9", "Specialization in AI/ML"],
+      skills: ["Data Structures", "Algorithms", "Database Systems", "Operating Systems", "Computer Networks", "Machine Learning","Web Development","Backend Development"],
+      description:
+        "Pursuing comprehensive computer science education with focus on modern software development practices, machine learning fundamentals, and system design. Engaging in hands-on projects including web applications and AI models while participating in competitive programming challenges.",
     },
   ];
 

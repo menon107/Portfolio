@@ -139,10 +139,6 @@ const SkillsSection = () => {
           name: "Wireframing",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
         },
-        {
-          name: "Prototyping",
-          icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
-        },
       ],
     },
     {
@@ -199,14 +195,6 @@ const SkillsSection = () => {
         {
           name: "SVG Animation",
           icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />,
-        },
-        {
-          name: "3D Modeling",
-          icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
-        },
-        {
-          name: "Motion Graphics",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,
         },
       ],
     },

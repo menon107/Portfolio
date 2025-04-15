@@ -5,45 +5,37 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
-    description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+    title: "VachanPay",
+    description: "Voice-based payment application using speech recognition API for transaction authorization. Features secure JWT authentication, real-time transaction logging, and multi-factor voiceprint verification. Built with Node.js and MongoDB.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%221.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-04-13T21%3A00%3A05.338Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F4ef9dfd2411f4068%2F1.png%3FExpires%3D1839272405%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DlzSv2tpfcIriJswhh2cd6BQ1dtb95vr-DD1NxOeNBH2M6gEYyUdE84w~fYydm0-6cfTX~w5Mfo~uZfgRd6~pn-T6X5SHdQ7YrgbvEPr-cKRIoXU2C3SYOdj~V0DVwyKZxSeyN6fdiA93om3KXXSfCgnbE0wJ1IlBMdt~ja0jZQebO9gHcX1N3JKL8YMgJCF9nk5ufvU5Bm1cmAbd4-8WYmG10WPhB5p5kLSH21JYZ3IhF2gamgoVc01wUD9xiNzXNTkAplBu1JwAIRwHOZKwAbxtqD4BeHniI45xCdcciKJ-l05rBehOvwWgJ5-y9o6eWFVX2QoHBn8cTKTS1F-6lw__%22%7D",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/menon107/VachanPay",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
-    description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
-    color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    title: "Portfolio",
+    description: "Modern 3D portfolio showcasing projects with React Three Fiber animations and interactive elements. Features dynamic scroll-based transitions, optimized WebGL rendering, and gesture-controlled interfaces. Built with React Three Fiber, TailwindCSS, and Framer Motion for smooth 60fps animations.",
+    src: "portfolio.jpg",
+    link: "#",
+    color: "#6366f1",
+    githubLink: "https://github.com/menon107/portfolio-3d",
   },
   {
-    title: "🚀 CodeWhisperer",
-    description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    title: "Metaverse App",
+    description: "2D virtual interaction space with real-time WebSocket communication. Features lobby creation, avatar customization, and text/voice chat. Includes room moderation tools and persistent session management using Socket.io and PostgreSQL.",
+    src: "metaverse.jpg",
+    link: "#",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/menon107/digital-workspace",
   },
+  {
+    title: "Leetcode Helper Extension",
+    description: "Chrome extension enhancing coding interview preparation with problem analysis, solution timer, and performance tracking. Integrates with LeetCode API for real-time submission stats and pattern recognition.",
+    src: "leetcode.jpg",
+    link: "#",
+    color: "#fff",
+    githubLink: "https://github.com/menon107/leetcode-helper-extension",
+  }
 ];
 
 export default function Projects() {
@@ -193,7 +185,7 @@ function Card({
                   </span>
                 </motion.a>
 
-                {/* Live Link */}
+                {/* Live Link - REMOVING THIS SECTION */}
                 <motion.a
                   href={liveLink}
                   target="_blank"
@@ -231,7 +223,7 @@ function Card({
       </motion.div>
     </div>
   );
-}
+};
 
 // Add PropTypes validation
 Card.propTypes = {
@@ -244,5 +236,5 @@ Card.propTypes = {
   range: PropTypes.array.isRequired,
   targetScale: PropTypes.number.isRequired,
   githubLink: PropTypes.string.isRequired,
-  liveLink: PropTypes.string.isRequired,
+  // Removed liveLink prop type
 };
